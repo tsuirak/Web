@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="403600b1-ad61-4447-a73d-dacd87159ae5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Hadoop/Project/Telecom_UserProfile_System/ptu-producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/service/CustomerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomer/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomer/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomer/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomer/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/BankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/BankTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/accountcustomerbank/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/exer/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/exer/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/familyaccount/FamilyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/familyaccount/FamilyAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/familyaccount/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/out/production/Project/pers/zyx/familyaccount/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/CMUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/util/CMUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/CustomerList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java/JavaSE_Learn_by_atguigu/Project/src/pers/zyx/CRM/view/CustomerView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1nDydtyJuowGthBzj8LKL50Rijr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="403600b1-ad61-4447-a73d-dacd87159ae5" name="Default Changelist" comment="" />
+      <created>1610939046232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610939046232</updated>
+      <workItem from="1610939049714" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
