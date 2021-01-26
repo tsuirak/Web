@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.zyx.sportplay.dao.UserDao">
+    <select id="getUserByMassage" resultType="pers.zyx.sportplay.bean.User">
+        SELECT* FROM user WHERE
+        username=#{username} and password=#{password} and state = 1;
+    </select>
+    <select id="getAllUser" resultType="pers.zyx.sportplay.bean.User">
+        SELECT * FROM user
+        <if test="username !=null ">
+            WHERE username like #{username}
+        </if>
+        LIMIT #{pageStart},#{pageSize}
+    </select>
+
+    <select id="getUserCounts" resultType="java.lang.Integer">
+        SELECT count(*) FROM `user`
+        <if test="username !=null ">
+            WHERE username like #{username}
+        </if>
+    </select>
+    <update id="updateState">
+         UPDATE user SET state = #{state} WHERE id = #{id}
+    </update>
+    <insert id="addUser">
+        INSERT INTO user
+        (username,password,email,role,state)
+        VALUE
+        (#{username},#{password},#{email},#{role},#{state})
+    </insert>
+    <delete id="deleteUser">
+        DELETE from user where id = #{id}
+    </delete>
+    <select id="getUpdateUser"  resultType="pers.zyx.sportplay.bean.User">
+        select * from user where id = #{id}
+    </select>
+    <update id="editUser">
+        update user set username = #{username} , password = #{password},
+        email = #{email} where id = #{id}
+    </update>
+</mapper>

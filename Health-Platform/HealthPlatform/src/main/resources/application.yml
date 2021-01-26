@@ -1,0 +1,17 @@
+# mysql
+spring:
+  datasource:
+    # mysql配置
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/healthy_platform?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: tokyo302
+
+mybatis:
+  # 数据库的映射文件地址
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.demo.model
+
+server:
+  # 服务端口
+  port: 9000
