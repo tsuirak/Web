@@ -6,4 +6,5 @@ __pycache__
 */.__pycache__
 .idea
 */.idea
-~              
+node_modules
+
