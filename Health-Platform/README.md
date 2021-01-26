@@ -10,6 +10,7 @@
   ├─Helth-Platform
     ├─HealthPlatform # 后端工程代码
     ├─Vue-HealthPlatform # 前端工程代码
+    ├─DataBase-SQL # 数据库的建表语句 请注意!!! 表名 user==easyuser
   ```
 
 # 联系方式
@@ -18,5 +19,5 @@
 
 # 参考
 
-- https://gitee.com/naughtycat
+- [naughtycat](https://gitee.com/naughtycat)
 
