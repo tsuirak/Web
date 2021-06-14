@@ -10,8 +10,8 @@ spring:
 mybatis:
   # 数据库的映射文件地址
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.example.demo.model
+  type-aliases-package: pers.zyx.sportplay.bean
 
 server:
   # 服务端口
-  port: 9000
+  port: 9080

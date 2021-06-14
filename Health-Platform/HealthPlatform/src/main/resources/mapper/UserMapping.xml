@@ -4,7 +4,7 @@
 
 <mapper namespace="pers.zyx.sportplay.dao.UserDao">
     <select id="getUserByMassage" resultType="pers.zyx.sportplay.bean.User">
-        SELECT* FROM user WHERE
+        SELECT * FROM user WHERE
         username=#{username} and password=#{password} and state = 1;
     </select>
     <select id="getAllUser" resultType="pers.zyx.sportplay.bean.User">
