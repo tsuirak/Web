@@ -1,0 +1,42 @@
+server:
+  # 端口
+  port: 8004
+
+spring:
+
+  # 时区配置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  # 配置数据源
+  datasource:
+    username: root
+    password: tokyo302
+    url: jdbc:mysql://localhost:3306/guli_project?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  application:
+    # 服务名
+    name: service-cms
+  # redis相关配置
+  redis:
+    host: 172.16.88.168
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1 # 最大阻塞等待时间（负数表示没有限制）
+        max-idle: 5
+        min-idle: 0
+
+
+mybatis-plus:
+  configuration:
+    # sql日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/tsuiraku/educms/mapper/xml/*.xml
+
+

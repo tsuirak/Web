@@ -1,0 +1,465 @@
+.Confirm {}
+
+.Confirm .Title, .Cart .Title {
+  padding: 30px;
+}
+
+.Confirm .Title h1, .Cart .Title h1 {
+  line-height: 30px;
+}
+
+.GoodList {
+  text-align: center;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.Cart .GoodList {
+  margin-bottom: 30px;
+}
+
+.GoodList tr.good:hover {
+  background: #F6F6F6
+}
+
+.GoodList th {
+  background: #F5F5F5;
+  height: 35px;
+  font-weight: normal;
+}
+
+.GoodList td {
+  border-bottom: 1px solid #DDD;
+}
+
+.GoodList td.Title {
+  border: none;
+  padding: 45px 0px 0px 0px;
+}
+
+.GoodList td.Title p {
+  background: url(/edu/center/images/disc_line.png) no-repeat center center;
+}
+
+.GoodList .name {
+  padding-right: 200px;
+}
+
+.GoodList td.name {
+  text-align: left;
+  padding: 20px 200px 20px 30px;
+}
+
+.GoodList td.name img {
+  width: 125px;
+  height: 90px;
+  display: block;
+  float: left;
+}
+
+.GoodList td.name .goodInfo {
+  margin-left: 150px;
+}
+
+.GoodList td.name .goodInfo a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.GoodList td.name .goodInfo .onlyMobile {
+  padding: 5px 10px;
+  border-radius: 4px;
+  line-height: 22px;
+}
+
+.GoodList .actions {
+  width: 100px;
+  padding-right: 50px;
+}
+
+.GoodList .price, .GoodList .priceNew {
+  width: 200px;
+}
+
+.GoodList td.price, .GoodList td.priceNew, .GoodList td.actions {
+  vertical-align: top;
+  padding: 20px 0px;
+}
+
+.GoodList td.price strong, .GoodList td.priceNew strong {
+  font-size: 16px;
+}
+
+.GoodList td.price p {
+  margin-bottom: 10px;
+}
+
+.GoodList td.price .discName {
+  background: #fff5f5;
+  border: 1px solid #C01920;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.GoodList td.actions {
+  text-align: left;
+}
+
+.GoodList td.actions p {
+  cursor: pointer;
+}
+
+.GoodList td.actions p:hover, .Finish .Main div.fl p:hover {
+  color: #C01920
+}
+
+.GoodList td.teacher {
+  text-align: left;
+  line-height: 1;
+  padding: 30px 0 20px 30px;
+}
+
+.GoodList td.First {
+  border-left: 1px solid #DDD;
+}
+
+.GoodList td.Last {
+  border-right: 1px solid #DDD;
+}
+
+.GoodList td.Billing {
+  padding: 30px;
+  background-color: #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+}
+
+.GoodList td.Billing input {
+  border-radius: 3px;
+  border: 1px solid #DDD;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+.GoodList td.Billing .discount {
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.Finish {
+  margin-bottom: 150px;
+}
+
+.Cart .Finish {
+  margin-bottom: 125px;
+}
+
+.Finish .Main {
+  width: 968px;
+  border: 1px solid #DDD;
+  height: 68px;
+  line-height: 68px;
+  padding: 0 30px;
+}
+
+.Finish .Main div.fl {
+  padding-top: 0px;
+}
+
+.Finish .Main div.fl p {
+  padding: 0px 20px;
+  border-right: 1px solid #DDD;
+  line-height: 20px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.Finish>button {
+  width: 170px;
+  height: 70px;
+  line-height: 1;
+  font-size: 24px;
+  border-radius: 0;
+}
+
+.Finish>button.disabled {
+  background-color: #999;
+}
+
+.Finish .check {
+  margin-top: -40px;
+  line-height: 20px;
+  right: 100px;
+}
+
+.Finish .check input {
+  display: none;
+}
+
+.Finish .check p {
+  padding-left: 20px;
+  background: url(/edu/center/images/check.png) no-repeat left center;
+}
+
+.Finish .check p.on {
+  background-image: url(/edu/center/images/checked.png);
+}
+
+.Finish .Main div.fl p.checkbox {
+  background-position: left center;
+  padding-left: 30px;
+}
+
+.isNuLL {
+  height: 200px;
+  line-height: 200px;
+  border-top: 1px solid #DDD;
+}
+
+.lastTips {
+  text-align: right;
+  padding-right: 200px;
+  font-size: 12px;
+  color: #818181;
+  margin-top: 10px;
+}
+
+.GoodList th.checkbox, .GoodList td.checkbox, .GoodList td.checkboxOverTime, .Finish .checkbox {
+  background-image: url(/edu/center/images/check.png);
+  background-repeat: no-repeat;
+  background-position: 30px center;
+  padding-left: 60px;
+  text-align: left;
+  cursor: default;
+}
+
+.GoodList th.checkbox.on, .GoodList td.checkbox.on, .Finish .checkbox.on {
+  background-image: url(/edu/center/images/checked.png);
+}
+
+.GoodList .checkbox.teacher {
+  background-position: 30px 29px;
+}
+
+.checkbox input[type="checkbox"], .checkboxOverTime input[type="checkbox"] {
+  display: none;
+}
+
+.Classes {}
+
+.Classes dt {
+  padding: 0px 10px;
+  border-bottom: 2px solid #DDD;
+  height: 42px;
+  overflow: hidden;
+}
+
+.Classes dt p {
+  float: left;
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.Classes dt p.cur, .Classes dt p:hover {
+  border-bottom: 4px solid #C01920;
+  color: #C01920;
+  padding-bottom: 6px;
+}
+
+.Classes dd {}
+
+.Classes dd ul {
+  display: none;
+  overflow: hidden;
+  margin: 0px -10px;
+}
+
+.Classes dd ul.cur {
+  display: block;
+}
+
+.Classes dd ul li {
+  float: left;
+  margin: 25px 10px;
+  width: 222px;
+  border: 1px solid #DDD;
+}
+
+.Classes dd ul li .pic {
+  height: 161px;
+  margin: -1px;
+  position: relative;
+}
+
+.Classes dd ul li .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.Classes dd ul li .pic p {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  font-size: 12px;
+  color: #FFF;
+  left: 0;
+  padding: 5px;
+  background: url(/edu/center/images/bg70.png);
+}
+
+.Classes dd ul li .info {
+  padding: 10px;
+}
+
+.Classes dd ul li .info p.tit {
+  margin-bottom: 20px;
+  line-height: 22px;
+  height: 44px;
+  overflow: hidden;
+}
+
+/**涓烘偍鎺ㄨ崘-- 寰亴浣嶆帹鑽�**/
+/* .Classes dd ul li {
+  float: left;
+  margin: 25px 10px;
+  width: 222px;
+  border: 1px solid #DDD;
+} */
+
+.Classes dd ul .weijob .pic {
+  height: 161px;
+  margin: -1px;
+  position: relative;
+}
+
+.Classes dd ul .weijob .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.Classes dd ul .weijob .pic p {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  font-size: 12px;
+  color: #FFF;
+  left: 0;
+  padding: 5px;
+  background: url(/edu/center/images/bg70.png);
+}
+
+.Classes dd ul .weijob .info {
+  padding: 10px;
+}
+
+.Classes dd ul .weijob .info p.tit {
+  margin-bottom: 20px;
+  line-height: 22px;
+  height: 44px;
+  overflow: hidden;
+  color: #777986;
+
+}
+
+.Classes dd ul .weijob .info .lb{
+  color: #777986;
+}
+
+.Classes dd ul .weijob .info .lb .lesson{
+  float: left;
+  margin-right: 18px;
+  
+}
+
+.Classes dd ul .weijob .info .lb .personNum{
+  float: left;
+}
+
+.Classes dd ul .weijob .info .lb .personNum:before{
+  content: '';
+  background-image: url(/edu/center/images/car_rec/i_per.png);
+  vertical-align: middle;
+  display: inline-block;
+  background-size: 8px 10px;
+  width: 8px;
+  height: 10px;
+  margin-top: -3px;
+  margin-right: 3px;
+}
+
+.Classes dd ul .weijob .info .money{
+  color: #777986;
+}
+
+/*ThisPage Select*/
+
+.Confirm .SelectDL {
+  height: 20px;
+  line-height: 20px;
+  min-width: 220px;
+  text-align: left;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+.Confirm .SelectDL dd {
+  top: 20px;
+}
+
+.Confirm .SelectDL dd li span, .Confirm .SelectDL dt p span {
+  color: #C01920;
+}
+
+.Pack {
+  border: 1px solid #DDD;
+  padding: 20px 30px;
+  margin-bottom: 80px;
+}
+
+.Pack .Main {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #DDD;
+}
+
+.Pack .Main img {
+  width: 125px;
+  height: 90px;
+}
+
+.Pack .Main .info {
+  margin-left: 150px;
+}
+
+.Pack .Main .info h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.Pack .Main .info p {
+  line-height: 26px;
+}
+
+.packItemList {
+  padding: 20px 0px;
+}
+
+.packItemList li {
+  overflow: hidden;
+  line-height: 32px;
+}
+
+.packItemList li .title {
+  width: 750px;
+  float: left;
+  padding-left: 20px;
+  background: url(/edu/center/images/dot.png) no-repeat 5px center;
+}
+
+.packItemList li span {
+  float: left;
+}

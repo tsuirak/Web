@@ -1,0 +1,31 @@
+{
+  "name": "edu",
+  "version": "1.0.0",
+  "description": "前台网站",
+  "author": "tsuiraku@126.com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "element-ui": "^2.15.6",
+    "js-cookie": "^3.0.1",
+    "nuxt": "^2.0.0",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-qriously": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "@babel/compat-data": "7.9.0"
+  }
+}

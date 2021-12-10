@@ -1,0 +1,57 @@
+server:
+  # 端口
+  port: 8222
+
+spring:
+  banner:
+    location: classpath:banner.txt
+
+  application:
+    # 服务名
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # nacos服务端口号
+    gateway:
+      enabled: true # 使用服务发现路由
+      routes:
+      - id: service-cms # 路由名
+        uri: lb://service-cms # 路由url
+        predicates: Path=/educms/** # 路由断言/匹配路径
+      - id: service-edu
+        uri: lb://service-edu
+        predicates: Path=/eduservice/**
+      - id: service-cms
+        uri: lb://service-cms
+        predicates: Path=/edumsm/**
+      - id: service-edu
+        uri: lb://service
+        predicates: Path=/eduservice/**
+      - id: service-order
+        uri: lb://service-order
+        predicates: Path=/eduorder/**
+      - id: service-oss
+        uri: lb://service-oss
+        predicates: Path=/eduoss/**
+      - id: service-statistics
+        uri: lb://service-statistics
+        predicates: Path=/edusta/**
+      - id: service-ucenter
+        uri: lb://service-ucenter
+        predicates: Path=/educenter/**
+      - id: service-vod
+        uri: lb://service-vod
+        predicates: Path=/eduvod/**
+
+
+mybatis-plus:
+  configuration:
+    # sql日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/tsuiraku/eduservice/mapper/xml/*.xml
+feign:
+  httpclient:
+    enabled: true # 开启熔断机制
+
+

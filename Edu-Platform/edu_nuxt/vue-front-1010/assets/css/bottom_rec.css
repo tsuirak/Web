@@ -1,0 +1,413 @@
+.bottom_rec{
+    position: relative;
+    width: 850px;
+    height: 390px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.bottom_rec .til{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #ccc solid;
+}
+.detail_rec{
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    top: 60px;
+} 
+.detail_rec .swiper-container1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+    overflow: hidden;
+}
+.detail_rec .swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+
+.detail_rec .min_item,
+.detail_rec .special_item,
+.detail_rec .course_item{
+    position: relative;
+    width: 198px;
+    height: 314px;
+    margin: 0 6px;
+    float: left;
+}
+.detail_rec .special_item:hover{
+    box-shadow: 0px 0px 4px #BBB;
+}
+.detail_rec .course_item:hover{
+    box-shadow: 0px 0px 4px #BBB;
+}
+.detail_rec .special_item .item_pic,
+.detail_rec .course_item .item_pic{
+    position: relative;
+    width: 198px;
+    height: 121px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.detail_rec .special_item .item_type{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    background: #e93460;
+    color: #fff;
+    text-align: center;
+    border: 2px #fff solid;
+    font-size: 12px;
+    border-radius: 12px;
+    top: -8px;
+    left: -8px;
+    padding: 0 3px;
+    z-index: 10;
+}
+.detail_rec .special_item .item_pic img,
+.detail_rec .course_item .item_pic img{
+    width: 100%;
+    height: 100%;
+}
+.detail_rec .special_item .item_name,
+.detail_rec .course_item .item_name{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 12px 0 12px;
+    height: 44px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #212432;
+    overflow: hidden;
+}
+.detail_rec .special_item .item_info,
+.detail_rec .course_item .item_info{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 12px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    margin-top: 19px;
+    color: #777986;
+    overflow: hidden;
+}
+.detail_rec .special_item .item_info .item_course_num,
+.detail_rec .course_item .item_info .item_course_num{
+    float: left;
+}
+.detail_rec .special_item .item_info .item_study_num{
+    float: right;
+    margin-left: 10px;
+}
+.detail_rec .special_item .item_info .item_study_num:before{
+    content: '';
+    background: url("/edu/center/images/sprite/css_sprites.png")  -158px -83px no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    /* background-size: 8px 10px; */
+    width: 8px;
+    height: 10px;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+/* 寰亴浣嶆帹鑽� */
+.detail_rec .min_item:hover{
+    box-shadow: 0px 0px 4px #BBB;
+}
+.detail_rec .course_item:hover{
+    box-shadow: 0px 0px 4px #BBB;
+}
+.detail_rec .min_item .item_pic{
+    position: relative;
+    width: 198px;
+    height: 121px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.detail_rec .min_item .item_type{
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    background: rgb(244,134,83);
+    color: #fff;
+    text-align: center;
+    border: 2px #fff solid;
+    font-size: 12px;
+    border-radius: 12px;
+    top: -8px;
+    left: -8px;
+    padding: 0 3px;
+    z-index: 10;
+}
+.detail_rec .min_item .item_pic img{
+    width: 100%;
+    height: 100%;
+}
+.detail_rec .min_item .item_name{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 12px 0 12px;
+    height: 44px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #212432;
+    overflow: hidden;
+}
+.detail_rec .min_item .item_info{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 12px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    margin-top: 19px;
+    color: #777986;
+    overflow: hidden;
+}
+.detail_rec .min_item .item_info .item_course_num{
+    float: left;
+}
+
+.detail_rec .min_item .item_info .item_study_num{
+    float: left;
+    margin-left: 10px;
+}
+
+.detail_rec .min_item .item_info .item_score{
+    float: right;
+    margin-right: 10px;
+}
+
+.detail_rec .min_item .item_info .item_study_num:before{
+    content: '';
+    background: url("/edu/center/images/sprite/css_sprites.png")  -158px -83px no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    /* background-size: 8px 10px; */
+    width: 8px;
+    height: 10px;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+.detail_rec .min_item .item_intro{
+    position: relative;
+    width: 100%;
+    height: 24px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #777986;
+    box-sizing: border-box;
+    margin-top: 12px;
+    padding: 0 12px;
+    overflow: hidden;
+}
+.detail_rec .min_item .item_btm{
+    position: relative;
+    width: 100%;
+    height: 12px;
+    line-height: 12px;
+    color: #212432;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 0 12px;
+    margin-top: 32px;
+}
+.detail_rec .min_item .item_btm .item_prise{
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+}
+.detail_rec .min_item .item_btm .item_prise .item_new_prise{
+    float: left;
+}
+.detail_rec .min_item .item_btm .item_prise .item_old_prise{
+    float: left;
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 14px;
+    color: #777986;
+}
+.detail_rec .min_item .item_btm .item_prise .item_cut_prise{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    font-size: 10px;
+    color: #ff5a00;
+    background: #f8dbcc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.detail_rec .min_item .item_btm .item_btn_buynow{
+    float: right;
+    z-index: 10;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    color:rgb(0, 186, 242);
+}
+
+._order .min_item{
+    width: 224px;
+    height: 338px;
+}
+
+._order .detail_rec .min_item .item_pic{
+    width: 224px;
+    height: 134px;
+}
+
+/* 寰亴浣嶆帹鑽愮粨鏉� */
+
+
+.detail_rec .course_item .item_info .item_study_num{
+    float: left;
+    margin-left: 10px;
+}
+.detail_rec .course_item .item_info .item_study_num:before{
+    content: '';
+    background: url("/edu/center/images/sprite/css_sprites.png")  -158px -83px no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    /* background-size: 8px 10px; */
+    width: 8px;
+    height: 10px;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+.detail_rec .course_item .item_info .item_course_score{
+    float: right;
+}
+.detail_rec .special_item .item_intro,
+.detail_rec .course_item .item_intro{
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #777986;
+    box-sizing: border-box;
+    margin-top: 12px;
+    padding: 0 12px;
+    overflow: hidden;
+}
+.detail_rec .special_item .item_btm,
+.detail_rec .course_item .item_btm{
+    position: relative;
+    width: 100%;
+    height: 12px;
+    line-height: 12px;
+    color: #212432;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 0 4px;
+    margin-top: 30px;
+}
+.detail_rec .special_item .item_btm .item_prise,
+.detail_rec .course_item .item_btm .item_prise{
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+}
+.detail_rec .special_item .item_btm .item_prise .item_new_prise,
+.detail_rec .course_item .item_btm .item_prise .item_new_prise{
+    float: left;
+}
+.detail_rec .special_item .item_btm .item_prise .item_old_prise,
+.detail_rec .course_item .item_btm .item_prise .item_old_prise{
+    float: left;
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 14px;
+    color: #777986;
+}
+.detail_rec .special_item .item_btm .item_prise .item_cut_prise{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    font-size: 10px;
+    color: #ff5a00;
+    background: #f8dbcc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.detail_rec .special_item .item_btm .item_btn_buynow,
+.detail_rec .course_item .item_btm .item_btn_freesee{
+    float: right;
+    z-index: 10;
+    cursor: pointer;
+    position: relative;
+}
+.bottom_rec .item_old_prise .v_line{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #777986;
+    top: -7px;
+}
+._order{
+    position: relative;
+    width: 1200px;
+    height: 416px;
+    margin: 0 auto;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+._order .special_item,
+._order .course_item{
+    width: 224px;
+    height: 338px;
+}
+
+.btn_next{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    right: -10px;
+    top: 55%;
+    margin-top: -50px;
+    z-index: 10;
+    cursor: pointer;
+    background: url("/edu/center/images/sprite/css_sprites.png")  -130px -10px no-repeat;
+}
+.btn_prev{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: -20px;
+    top: 55%;
+    margin-top: -50px;
+    z-index: 10;
+    cursor: pointer;
+    background: url("/edu/center/images/sprite/css_sprites.png") -71px -10px no-repeat;
+    display: block;
+}
+.btn_next:hover{
+    background: url("/edu/center/images/car_rec/i_r1.png") 0 0 no-repeat;
+}
+.btn_prev:hover{
+    background: url("/edu/center/images/car_rec/i_l1.png") 0 0 no-repeat;
+}
+._order .detail_rec .special_item .item_pic, 
+._order .detail_rec .course_item .item_pic{
+    width: 224px;
+    height: 134px;
+}
+
+
+
+
+
+
+
+

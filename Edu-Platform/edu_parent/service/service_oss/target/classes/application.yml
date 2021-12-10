@@ -1,0 +1,20 @@
+profiles:
+  active: dev
+
+server:
+  port: 8002
+
+spring:
+  application:
+    name: service-oss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+aliyun.oss.file.endpoint: oss-cn-chengdu.aliyuncs.com
+aliyun.oss.file.keyid: LTAI5tKMopgA33oS3WXX5o5v
+aliyun.oss.file.keysecret: xovYkSalvMxlP3Mk66VTYiuP2sOpF5
+aliyun.oss.file.bucketname: tsuiraku
+

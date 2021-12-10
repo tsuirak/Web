@@ -1,0 +1,35 @@
+server:
+  # 端口
+  port: 8008
+
+spring:
+  banner:
+    location: classpath:banner.txt
+
+  # 时区配置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  # 配置数据源
+  datasource:
+    username: root
+    password: tokyo302
+    url: jdbc:mysql://localhost:3306/guli_project?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  application:
+    # 服务名
+    name: service-statistics
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # nacos服务端口号
+mybatis-plus:
+  configuration:
+    # sql日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/tsuiraku/statisticsservice/mapper/xml/*.xml
+
+

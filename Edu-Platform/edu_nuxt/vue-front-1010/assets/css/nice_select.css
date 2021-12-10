@@ -1,0 +1,11 @@
+.SelectDL {border:1px solid #DDD;height: 30px;background: #FFF;cursor: default;text-indent: 4px;position: relative;}
+.SelectDL:hover,.SelectDL.cur{box-shadow:0 0 3px #00baf2;}
+  .SelectDL dt  {padding-right: 30px;background: url(/edu/center/images/tips.png) no-repeat 95% center;color:#666;}
+    .SelectDL dt.disabled {background-color: #e3e3e3;cursor: no-drop;}
+  .SelectDL-icon {background: url(/edu/center/images/tips.png) no-repeat 95% center !important;}
+    .SelectDL dt p,.SelectDL dd li  {text-overflow:ellipsis; white-space:nowrap; overflow:hidden;word-wrap:normal;text-align: center;}
+  .SelectDL dd  {position: absolute;left: -1px;top:30px;background: #FFF;border:1px solid #DDD;width: 100%;display: none;overflow: hidden;z-index: 100;margin-top: -1px;}
+    .SelectDL dd ul {max-height: 240px;padding:5px 10px;}
+      .SelectDL dd ul li:hover  {background: #F1F1F1;}
+      .SelectDL dd ul li.disabled,.SelectDL dd ul li.disabled:hover {background: #CCC;}
+      .SelectDL i.icon.arrow_down{background-position: 0px -150px;width: 8px;height: 5px;position: absolute;right: 10px;top:13px;}

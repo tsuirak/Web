@@ -1,0 +1,26 @@
+profiles:
+  active: dev
+
+server:
+  port: 8003
+
+spring:
+  application:
+    name: service-vod
+  servlet:
+    multipart:
+      max-file-size: 1024MB # 最大上传单个的文件大小：默认 1MB
+      max-request-size: 1024MB # 最大总上传的数据大小：默认 10MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+
+aliyun:
+  vod:
+    file:
+      keyid: LTAI5tKMopgA33oS3WXX5o5v
+      keysecret: xovYkSalvMxlP3Mk66VTYiuP2sOpF5
+
