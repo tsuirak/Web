@@ -6,3 +6,4 @@
 - 基于Spark和Spring的电影推荐系统
 - 基于SringBoot和Vue的个人健康管理平台
 
+- 基于Springboot和Vue的在线教育平台
