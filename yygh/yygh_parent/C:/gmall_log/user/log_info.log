@@ -1,0 +1,3 @@
+2021-12-17 23:12:04.874 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 23:12:04.922 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2021-12-17 23:12:04.936 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.

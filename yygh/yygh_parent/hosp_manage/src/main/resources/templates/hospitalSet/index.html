@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="common/meta :: meta"></head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <form id="ec" th:action="@{/hospitalSet/save}" method="post" class="form-horizontal">
+                        <input type="hidden" name="id" value="1">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">医院code：</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" name="hoscode" id="hoscode" th:value="${hospitalSet.hoscode}" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">签名key：</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" name="signKey" id="signKey" th:value="${hospitalSet.signKey}" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">统一预约挂号平台基础路径：</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" name="apiUrl" id="apiUrl" th:value="${hospitalSet.apiUrl}" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-primary" type="submit">保存内容</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function(){
+        $('#ec').validate({
+            rules:{
+                hoscode:"required",
+                signKey:"required",
+                apiUrl:"required",
+            },
+            messages:{
+                hoscode:"必须输入",
+                signKey:"必须输入",
+                apiUrl:"必须输入"
+            },
+            submitHandler: function(form) {
+                opt.load();
+                $(form).find(":submit").attr("disabled", true).text("正在提交...");
+                form.submit();
+            }
+        });
+    });
+</script>

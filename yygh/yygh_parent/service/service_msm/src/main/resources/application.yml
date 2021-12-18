@@ -1,0 +1,39 @@
+server:
+  # 端口
+  port: 8204
+
+spring:
+
+  # 时区配置
+  jackson:
+    date-format: yyyy-MM-dd HH:m m:ss
+    time-zone: GMT+8
+
+  application:
+    # 服务名
+    name: service-cms
+  # redis相关配置
+  redis:
+    host: 172.16.88.168
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1 # 最大阻塞等待时间（负数表示没有限制）
+        max-idle: 5
+        min-idle: 0
+
+mybatis-plus:
+  configuration:
+    # sql日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+# 腾讯云
+tencentcloud:
+  sms:
+    secretId: AKID1rRkmY3qQkob7NM4WieKksjKhoeEXaMr
+    secretKey: FG0YppXy81dz5uTlmX1EAqKXUAYgX7RN
+    sdkAppId: 1400591468

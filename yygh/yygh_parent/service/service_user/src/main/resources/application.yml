@@ -1,0 +1,41 @@
+server:
+  port: 8203
+spring:
+  data:
+    mongodb:
+      uri: mongodb://172.16.88.168:27017/yygh_hosp
+  profiles:
+    active: dev
+  application:
+    name: service-user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yygh_project?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: tokyo302
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  # redis相关配置
+  redis:
+    host: 172.16.88.168
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1 # 最大阻塞等待时间（负数表示没有限制）
+        max-idle: 5
+        min-idle: 0
+
+mybatis-plus:
+  mapper-location: classpath:com/tsuiraku/userservice/mapper/xml/*.xml
+
+feign:
+  sentinel:
+    enabled: true

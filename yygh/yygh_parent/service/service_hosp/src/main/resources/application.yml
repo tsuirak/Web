@@ -1,0 +1,29 @@
+server:
+  port: 8201
+spring:
+  data:
+    mongodb:
+      uri: mongodb://172.16.88.168:27017/yygh_hosp
+  profiles:
+    active: dev
+  application:
+    name: service-hosp
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yygh_project?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: tokyo302
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+mybatis-plus:
+  mapper-location: classpath:com/tsuiraku/hospservice/mapper/xml/*.xml
+
+feign:
+  sentinel:
+    enabled: true

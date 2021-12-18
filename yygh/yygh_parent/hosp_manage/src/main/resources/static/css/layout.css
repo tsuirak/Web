@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family:'microsoft yahei,"微软雅黑"';
+    font-size:14px;
+}
+ul,ol,li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.celarfix{
+    zoom:1;
+    clear: both;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+.tooltip{font-size:13px;}
+.tooltip.top .tooltip-arrow{border-top:5px solid #ddd;}
+.tooltip-inner{color:#333;border:1px solid #ccc;background-color:#fff;word-break:break-all;text-align:left;}
+.yb-container{
+    /*width: 1100px;*/
+}
+.yb-tit{
+    height: 40px;
+    width: 100%;
+    background: rgba(39, 133, 203, 1);
+}
+.yb-tit-t{
+    width: 50%;
+    color: #ffffff;
+    line-height: 40px;
+}
+.yb-cat-header{
+    width: 50%;
+    min-height:100px;
+}
+.yb-pad-tb10{
+    padding:10px 0;
+}
+.yb-header-search{
+    padding:10px;
+}
+.yb-header-search .form-group{
+    margin-bottom:12px;
+}
+.yb-header-search .form-group label{
+    min-width:160px;
+}
+.yb-color-blue{
+    color: rgba(39, 133, 203, 1);
+}
+.yb-wrap{
+    position:relative;
+}
+.yb-cat-cont{
+    width: 50%;
+    padding:10px 10px 10px 0;
+}
+.yb-cat-cont-inner{
+    border:1px solid rgba(39, 133, 203, 1);
+    min-height:600px;
+}
+.yb-cat-r-header{
+    padding:10px;
+}
+.yb-cat-r-cont{
+    padding:10px;
+}
+.yb-cat-l-nav-top{
+    margin:0;
+}
+.list-nav{
+    margin:0;
+}
+.yb-ul{
+    width:100%;
+    border: 1px solid #f6f8fb;
+    border-right: none;
+    border-left: none;
+}
+.yb-ul li{
+    float: left;
+    min-height:40px;
+    vertical-align: middle;
+}
+.yb-cat-inner-cont{
+    margin-left:10px;
+    border:1px solid #ccc;
+    border-right:none;
+}
+.yb-ul li>div{
+    line-height:28px;
+}
+.yb-ul li:nth-child(1) {
+    width:40px;
+}
+.yb-ul li:nth-child(2) {
+    width:80px;
+}
+.yb-ul li:nth-child(3) {
+    width:190px;
+}
+.yb-ul li:nth-child(4) {
+    width:90px;
+}
+.yb-ul li:nth-child(5) {
+    width:128px;
+}
+.yb-cat-inner-cont ul:nth-child(2n+1){
+    background:#f6f8fb;
+}
+ul.list-nav:hover{
+    background:#eee;
+}
+ul.yb-ul{
+    border-right:1px solid #ccc;
+}
+ul.list-nav.on{
+    position:relative;
+    border:1px solid rgba(39, 133, 203, 1);
+    border-right:none;
+}
+ul.list-nav.on:before{
+    position: absolute;
+    display: block;
+    content:'';
+    height:40px;
+    border-right:1px solid #fff;
+    z-index:2;
+    right:-1px;
+    top:0;    
+}
+.red{
+    color:red;
+    font-weight: 600;
+}

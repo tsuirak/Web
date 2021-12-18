@@ -1,0 +1,30 @@
+server:
+  # 端口
+  port: 8001
+
+spring:
+  application:
+    # 服务名
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # nacos服务端口号
+    gateway:
+      enabled: true # 使用服务发现路由
+      routes:
+        - id: service-cmn # 路由名
+          uri: lb://service-cmn # 路由url
+          predicates: Path=/*/cmn/** # 路由断言/匹配路径
+
+        - id: service-edu
+          uri: lb://service-hosp
+          predicates: Path=/*/hosp/**
+
+        - id: service-cms
+          uri: lb://service-msm
+          predicates: Path=/*/msm/**
+
+        - id: service-user
+          uri: lb://service
+          predicates: Path=/*/user/**

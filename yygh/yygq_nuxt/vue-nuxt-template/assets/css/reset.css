@@ -1,0 +1,44 @@
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}  /* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,img {border:0 none}  /* 重置fieldset（表单分组）、图片的边框为0*/
+dl,ul,ol,menu,li {list-style:none}   /* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote, q {quotes: none}   /* 重置嵌套引用的引号类型 */
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}  /* 重置嵌套引用*/
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/
+button {border:0 none;background-color:transparent;cursor:pointer}  /* 重置表单button按钮效果 */
+body {background:#fff}   /* 重置body 页面背景为白色 */
+body,th,td,input,select,textarea,button {font-size:12px;line-height:1 ;font-family:"微软雅黑", "黑体","宋体";color:#666} /* 重置页面文字属性 */
+a {color:#666;text-decoration:none}  /* 重置链接a标签 */
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */
+caption {display:none;}    /* 重置表格标题为隐藏 */
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* 重置table属性 */
+img{vertical-align:top}  /* 图片在当前行内的垂直位置 */
+ 
+/* 页面设置 */
+ 
+  /* 取消a标签点击后的虚线框 */
+a {outline: none;}  
+
+ 
+ /* 设置页面文字等在拖动鼠标选中情况下的背景色与文字颜色 */
+/* 
+::selection {color: #fff;background-color: #4C6E78;}    
+::-moz-selection {color: #fff;background-color: #4C6E78;} 
+*/
+ 
+/*清除浮动*/
+.clear{clear: both;}
+ 
+/*清除浮动--推荐使用*/
+.clearfix:before,.clearfix:after{content: '';display: table;}
+.clearfix:after{clear: both;}
+
+
+.animation-show {
+    -webkit-animation: animation-show-data-v-c865a8bc .1s ease-in;
+    animation: animation-show-data-v-c865a8bc .1s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}

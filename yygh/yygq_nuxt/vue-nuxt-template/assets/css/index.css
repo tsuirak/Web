@@ -1,0 +1,114 @@
+#app-container {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 14px;
+    color: #666;
+    height: 100%;
+    background: #fff;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 1200px;
+}
+#main {
+    height: 100%;
+    min-width: 1200px;
+}
+.header-container .wrapper, .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.header-container {
+    position: relative;
+    z-index: 1000;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    height: 70px;
+}
+.header-container .wrapper{
+    width: 1200px;
+    min-width: 1200px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.text{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.v-link{
+    color: #666;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.v-link.selected, .v-link:hover {
+    color: #4490f1;
+}
+
+.header-container .wrapper .search-wrapper{
+    width: 500px;
+}
+
+.hospital-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hospital-search .search-input{
+    width: 100%;
+}
+
+.col-right-bottom, .hospital-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+}
+
+/* 头部右侧 */
+.header-container .wrapper .right-wrapper {
+    width: 166px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}

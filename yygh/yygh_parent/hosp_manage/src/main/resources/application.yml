@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hospital-manage
+  profiles:
+    active: dev

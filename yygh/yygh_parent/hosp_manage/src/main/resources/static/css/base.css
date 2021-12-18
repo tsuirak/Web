@@ -1,0 +1,8 @@
+.susong_h1{border-bottom:3px solid #ddd;padding:12px 15px; font-size:14px; font-weight:bold; color:#555;}
+.susong_tab01 td,.susong_tab01 th{padding:10px 14px; border: solid #e8e8e8; border-width:0 1px 1px 0; font-size:14px;color:#555;}
+.susong_tab01 th{ background:#efefef; font-weight: bold; text-align:left;}
+.susong_tab01{border: solid #e8e8e8; border-width:1px 0 0 1px; margin:10px 0 0 0;}
+.color_blue a{ color:#6298cc; margin-right:20px;}
+.marginT30{ margin-top:30px;}
+
+.searchInput{width: 45%;height: 30px;border: 1px solid #e7eaec;}
